@@ -1,0 +1,23 @@
+              GenesisHub Server Network License
+                    Version 1, March, 2015
+
+ Copyright (C) 2015 DolphinBox <admin@genesishub.net> 
+
+
+              GenesisHub Server Network License
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION 
+
+  ---TERMS FOR CODE/ AND CUSTOM SOFTWARE/PLUGINS--- 	
+  0. You must agree to rules 0-4
+  1. You must accept that by accepting this license, we are allowed to take down your project or copied code.
+  2. You MUST change the name, and clearly state that you are in no way affiliated with GENESISHUB if you are using our software.
+  3. You may NOT use our software for Commercial use without prior permission.
+  4. You MUST request permissions for redistribution of our software.
+  ---TERMS FOR MINECRAFT SERVER---
+  5. By playing on GenesisHub, you agree to rules 5-9
+  6. You may not Greif (Unless you are on Factions, or it is permitted).
+  7. You may not swear, or use coarse language.
+  8. You may not use a modifed/hacked client (Mipmaps, Texture Packs, Optifine, and other performance mods are allowed.)
+  9. Be respectful
+  --- MISC TERMS ---
+  10. Loopholes that allow you to break these terms/do things the terms state are not allowed are not allowed. (Loopholes in general are not allowed.)
