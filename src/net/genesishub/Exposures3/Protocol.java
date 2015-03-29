@@ -1,4 +1,4 @@
-package net.genesishub.Exposure3.Protocol;
+package net.genesishub.Exposures3;
 
 import java.net.*;
 import java.io.*;
