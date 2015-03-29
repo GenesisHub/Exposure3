@@ -1,5 +1,5 @@
 package net.genesishub.Exposures3.Events;
 
-public class PlayerFlyEvent {
+public class PlayerFlyEvent implements Event{
 
 }

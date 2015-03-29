@@ -1,5 +1,5 @@
 package net.genesishub.Exposures3.Events;
 
-public class ConsoleCommandEvent {
+public class ConsoleCommandEvent implements Event{
 
 }

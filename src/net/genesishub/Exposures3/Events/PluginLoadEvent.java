@@ -1,5 +1,5 @@
 package net.genesishub.Exposures3.Events;
 
-public class PluginLoadEvent {
+public class PluginLoadEvent implements Event{
 
 }

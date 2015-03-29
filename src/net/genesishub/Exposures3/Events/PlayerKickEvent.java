@@ -1,5 +1,5 @@
 package net.genesishub.Exposures3.Events;
 
-public class PlayerKickEvent {
+public class PlayerKickEvent implements Event{
 
 }
