@@ -15,14 +15,16 @@ public class ExposurePlugin implements Plugin{
 	public static String version = "0.0.1";
 	public static State state;
 	
-	@Override
+	private static ExposureServer server = new ExposureServer();
+	
 	public void Enable() {
 		System.out.println("Plugin Loaded!");
 	}
 
-	@Override
 	public void Disable() {
 		System.out.println("Plugin Disabled!");
 	}
-
+	public ExposureServer getServer(){
+		return server;
+	}
 }
