@@ -13,5 +13,14 @@ public class Main {
 		run.start();
 		System.out.println("[INFO] Starting Server...");
 		Protocol.main();
+	
+	}
+	
+	public static void write(String str){
+		
+	}
+	
+	public static void read(String str){
+		
 	}
 }

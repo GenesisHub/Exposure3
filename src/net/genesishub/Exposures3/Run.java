@@ -1,7 +1,7 @@
 package net.genesishub.Exposures3;
 
 public class Run {
-	static ExposurePlugin plugin;
+	private static ExposurePlugin plugin = new ExposurePlugin();
 	protected static void start(){
 		plugin.Enable();
 	}
