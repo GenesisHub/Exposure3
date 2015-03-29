@@ -4,6 +4,10 @@ public class ExposureServer {
 	//If Login Authentication
 	private static boolean loginauth;
 	
+	/*
+	 * Main instatiation of plugin
+	 */
 	
+	private static ExposurePlugin plugin = new ExposurePlugin();
 	
 }

@@ -15,7 +15,7 @@ public class ExposurePlugin implements Plugin{
 	public static String version = "0.0.1";
 	public static State state;
 	
-	private static ExposureServer server = new ExposureServer();
+	private static ExposureServer server = Exposure.getServer();
 	
 	public void Enable() {
 		System.out.println("Plugin Loaded!");
