@@ -10,7 +10,7 @@ public class Protocol {
     {
        String clientSentence;
        int port = 25565;
-       System.out.println("Binding to port: " + port);
+       System.out.println("[INFO] Binding to port: " + port);
        ServerSocket minecraftSocket = new ServerSocket(port);
        while(true)
        {
