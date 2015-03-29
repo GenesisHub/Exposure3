@@ -1,4 +1,9 @@
 package net.genesishub.Exposures3;
+/*
+ * Exposure3 Minecraft Server
+ * By: Seshpenguin, _InDev_
+ * Main Java file.
+ */
 public class Main {
 	
 	static Run run;
