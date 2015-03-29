@@ -5,15 +5,16 @@ import java.io.*;
 
 //I have no clue what im doing.
 public class Protocol {
+	@SuppressWarnings("all")
 	public static void main() throws Exception
     {
        String clientSentence;
-       String capitalizedSentence;
-       ServerSocket welcomeSocket = new ServerSocket(25565);
-
+       int port = 25565;
+       System.out.println("Binding to port: " + port);
+       ServerSocket minecraftSocket = new ServerSocket(port);
        while(true)
        {
-          Socket connectionSocket = welcomeSocket.accept();
+          Socket connectionSocket = minecraftSocket.accept();
           BufferedReader inFromClient =
              new BufferedReader(new InputStreamReader(connectionSocket.getInputStream()));
           DataOutputStream outToClient = new DataOutputStream(connectionSocket.getOutputStream());
