@@ -2,6 +2,9 @@ package net.genesishub.Exposures3;
 public class Main {
 	
 	static Run run;
+	
+	
+	
 	@SuppressWarnings("all")
 	public static void main(String args[]) throws Exception{
 		
@@ -13,14 +16,14 @@ public class Main {
 		run.start();
 		System.out.println("[INFO] Starting Server...");
 		Protocol.main();
-	
+		
 	}
 	
+	/*
+	 * Writes to the Console.
+	 */
 	public static void write(String str){
-		
+		System.out.println(str);
 	}
 	
-	public static void read(String str){
-		
-	}
 }
