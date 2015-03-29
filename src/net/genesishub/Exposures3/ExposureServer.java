@@ -8,6 +8,6 @@ public class ExposureServer {
 	 * Main instatiation of plugin
 	 */
 	
-	private static ExposurePlugin plugin = new ExposurePlugin();
+	private static ExposurePlugin plugin = Exposure.getPluginManager();
 	
 }

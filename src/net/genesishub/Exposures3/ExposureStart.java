@@ -1,5 +1,13 @@
 package net.genesishub.Exposures3;
 
 public class ExposureStart {
-	public void
+	/*
+	 * Instantiate ExposureServer
+	 */
+	
+	public static ExposurePlugin plugin = Exposure.getPluginManager();
+	
+	public static void start(){
+		plugin.Enable();
+	}
 }

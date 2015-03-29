@@ -6,9 +6,9 @@ package net.genesishub.Exposures3;
  */
 public class Main {
 	
-	static Run run;
+	private static Run run;
 	
-	
+	private static ExposureStart start = new ExposureStart();
 	
 	@SuppressWarnings("all")
 	public static void main(String args[]) throws Exception{
@@ -21,7 +21,7 @@ public class Main {
 		run.start();
 		System.out.println("[INFO] Starting Server...");
 		Protocol.main();
-		
+		start.start();
 	}
 	
 	/*
