@@ -5,7 +5,7 @@ import java.io.*;
 
 //I have no clue what im doing.
 public class Protocol {
-	public static void main(String argv[]) throws Exception
+	public static void main() throws Exception
     {
        String clientSentence;
        String capitalizedSentence;
