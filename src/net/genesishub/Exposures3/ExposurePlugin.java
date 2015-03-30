@@ -1,5 +1,7 @@
 package net.genesishub.Exposures3;
 
+import javax.swing.undo.StateEdit;
+
 import net.genesishub.Exposures3.PluginManager.State;
 
 /*
@@ -13,7 +15,7 @@ public class ExposurePlugin implements Plugin{
 	
 	public static String name = "ExposurePlugin";
 	public static String version = "0.0.1";
-	public static State state;
+	public static StateEdit state;
 	
 	private static ExposureServer server = Exposure.getServer();
 	

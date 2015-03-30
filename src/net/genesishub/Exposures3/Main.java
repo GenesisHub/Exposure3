@@ -1,4 +1,6 @@
 package net.genesishub.Exposures3;
+import net.genesishub.Exposures3.*;
+import net.genesishub.Exposures3.Protocol.Protocol;
 /*
  * Exposure3 Minecraft Server
  * By: Seshpenguin, _InDev_
